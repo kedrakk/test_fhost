@@ -51127,7 +51127,7 @@ A.Rj.prototype={
 mu(){var s=0,r=A.a1(t.su),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$mu=A.a2(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
-n=A.nu("http://52.221.73.12:3000/home/getPrices")
+n=A.nu("https://dev-backend.fundex.com.sg/home/getPrices")
 j=t.N
 s=7
 return A.Y(A.aaH(n,A.aK(["Accept","application/json","Content-Type","application/json","Access-Control-Allow-Origin","*","Access-Control-Allow-Credentials","true","Access-Control-Allow-Headers","Origin,Content-Type,Accept,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,locale","Access-Control-Allow-Methods","GET,PUT,PATCH,POST,DELETE"],j,j)),$async$mu)
