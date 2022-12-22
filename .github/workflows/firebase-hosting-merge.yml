@@ -38,6 +38,17 @@ jobs:
     - run: flutter pub get
     - run: flutter config --enable-web
     - run: flutter build web
+    
+    # (3)
+    - name: Make copy of artifacts
+      run: |
+        chmod u+x "${GITHUB_WORKSPACE}/createandcopytofolder.sh"
+        bash "${GITHUB_WORKSPACE}/createandcopytofolder.sh"
+    # (4)
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Commit the artifacts.
+
     - name: Deploy to Firebase
       uses: FirebaseExtended/action-hosting-deploy@v0
       with:
