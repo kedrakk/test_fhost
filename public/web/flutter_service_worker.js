@@ -20,8 +20,8 @@ const RESOURCES = {
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/NOTICES": "ff304c51364ffa2379af50af48a9028a",
-"index.html": "7761b7a5c66734e0a9e706bcf1f7e096",
-"/": "7761b7a5c66734e0a9e706bcf1f7e096",
+"index.html": "96a2127a2e87ddb498fe3b8df701e44a",
+"/": "96a2127a2e87ddb498fe3b8df701e44a",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "9d450d307d368092bdc9c6503f585678"
 };
