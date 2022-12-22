@@ -6,9 +6,10 @@ import '../model/cat_fact.dart';
 import '../model/prices.dart';
 
 class NetworkData {
+  var backEndURL = "https://dev-backend.fundex.com.sg";
   Future<MetalPrices> getMetalPrices() async {
     try {
-      var url = Uri.parse("http://52.221.73.12:3000/home/getPrices");
+      var url = Uri.parse("$backEndURL/home/getPrices");
       var response = await http.get(
         url,
         headers: {
